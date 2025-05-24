@@ -9,9 +9,9 @@ vectorizer = joblib.load("vectorizer.pkl")
 # Emotion labels 
 label_map = {
     0: "Neutral",
-    1: "Worried",
+    1: "Pleasent",
     2: "Romantic",
-    3: "Happy",
+    3: "Sad",
     4: "Sad",
     5: "Confused"
 }
